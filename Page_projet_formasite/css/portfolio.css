@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: rgb(233, 230, 230);
+    background-color: #1c395c;
+}
+
+header {
+    margin: auto;
+    height: 100px;
+    width: 92%;
+    max-width: 120rem;
+}
+
+.project {
+    background: #1c395c;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.project-container {
+    max-width: 120rem;
+    margin: auto;
+    width: 92%;
+}
+
+.project-details {
+    padding: 3rem 0;
+    max-width: 90rem;
+    margin: auto;
+}
+
+.project-details-img {
+    background-color: #fafafa;
+    background-size: cover;
+    background-attachment: fixed;
+    width: initial;
+    margin-bottom: 3rem;
+    border-radius: 16px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: var(--three);
+    padding: 3rem;
+}
+
+.project-details-main {
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+}
+
+.project-details-desc {
+    margin: 0 0 7rem 0;
+}
+
+.project-details-title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: var(--one);
+}
+
+.project-details-desc-para {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    color: var(--two);
+    margin-bottom: 2rem;
+}
+
+.project-details-tools {
+    margin: 7rem 0 7rem 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    background: #162d49;
+    border-radius: 10px;
+    font-weight: 600;
+    color: var(--six);
+}
+
+.project-details-links {
+    margin: 0 0;
+}
+
+.project-details-links-btn {
+    margin-right: 2rem;
+}
+
+.project-details-links-btn:last-child {
+    margin: 0;
+}
+
+.project-skip {
+    padding: 3em;
+    text-align: center;
+}
+
+.btn-btn {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #0093E9;
+    color: #fafafa;
+    line-height: 3;
+}
+
+.btn-btn:hover {
+    border-radius: 20px;
+    padding: 14px 28px;
+    font-size: 16px;
+    background-color: #0093E9;
+    color: #fafafa;
+}
